@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee;
+}
+header {
+    height: 18%;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+.logo {
+    height: 60%;
+    width: 100%;
+}
+.tesa {
+    height: 100%;
+    width: auto;
+    margin-left: 39.2%;
+    margin-top: 10px;
+}
+.menu {
+    height: 25.5%;
+    width: 100%;
+    background-color: #898989;
+    margin-top: 25px;
+    color: white;
+    font-size: 20px;
+}
+a { 
+    font-family: verdana;
+    text-decoration: none;
+    color: white;
+}
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 9px;
+}
+.menu-horizontal > li:hover {
+    background-color: #548235;
+    padding: 8px 0px 8px 0px;
+    margin-top: -8px;
+}
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    font-size: 20px;
+    background-color: #898989;
+    padding-right: 42px;
+    margin-top: 8px;
+}
+.menu-horizontal li:hover .menu-vertical {
+    display: block;
+}
+.menu-vertical li:hover {
+    background-color: #144108;  
+}
+.menu-vertical li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 2px 15px 15px 1px;
+}
+.blanco {
+    background-color: white;
+    height: 190px;
+    width: 100%;
+}
+.verde1 {
+    background-color: #548235;
+    height: 195px;
+    width: 100%;
+}
+.barragris {
+    background-color: #a6a6a6;
+    height: 25px;
+    width: 100%;
+}
+.misionvision {
+    height: 100%;
+    width: 67.8%;
+    margin-left: 16.2%;
+    color: white;
+    font-family: verdana;
+    font-size: 20px;
+    line-height: 2;
+    padding-top: 0.1px;
+}
+.espacio {
+    height: 230px;
+    width: 100%;
+    margin-top: 20px;
+}
+.area1 {
+    height: 100%;
+    width: 67.8%;
+    margin-left: 16.2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.item {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 29%;
+}
+.item .lugar {
+    height: 100%;
+    width: 100%;
+    background-image: url(imagenes/lugartesa.jpg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+}
+.item .persona {
+    height: 100%;
+    width: 100%;
+    background-image: url(imagenes/due%C3%B1o.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+}
+.item .auto {
+    height: 100%;
+    width: 100%;
+    background-image: url(imagenes/carrotesa.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 18px;
+}
+.descripcion {
+    height: 200px;
+    width: 100%;
+    margin-top: 30px;
+}
+.texto {
+    height: 100%;
+    width: 67.8%;
+    margin-left: 16.2%;
+     color: #144108;
+    font-family: verdada;
+    font-size: 20px;
+    line-height: 2;
+}
+.pie {
+    background-color: #898989;
+    height: 170px;
+    margin-top: 50px;
+    color: white;
+    font-family: verdana;
+}
+.loguito {
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 280px;
+}
+.pie .p {
+    margin-left: 250px;
+}
+.textopie {
+    margin-left: 280px;
+}

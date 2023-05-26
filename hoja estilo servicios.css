@@ -1,0 +1,529 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eeeeee;
+}
+header {
+    height: 18%;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+}
+.logo {
+    height: 60%;
+    width: 100%;
+}
+.tesa {
+    height: 100%;
+    width: auto;
+    margin-left: 39.2%;
+    margin-top: 10px;
+}
+.menu {
+    height: 25.5%;
+    width: 100%;
+    background-color: #898989;
+    margin-top: 25px;
+    color: white;
+    font-size: 20px;
+}
+a { 
+    font-family: verdana;
+    text-decoration: none;
+    color: white;
+}
+.menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 9px;
+}
+.menu-horizontal > li:hover {
+    background-color: #548235;
+    padding: 8px 0px 8px 0px;
+    margin-top: -8px;
+}
+.menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    font-size: 20px;
+    background-color: #898989;
+    padding-right: 42px;
+    margin-top: 8px;
+}
+.menu-horizontal li:hover .menu-vertical {
+    display: block;
+}
+.menu-vertical li:hover {
+    background-color: #144108;  
+}
+.menu-vertical li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 2px 15px 15px 1px;
+}
+.blanco {
+    background-color: white;
+    height: 175px;
+    width: 100%;
+}
+.verde1 {
+    background-color: #548235;
+    height: 60px;
+    width: 100%;
+}
+.barragris {
+    background-color: #a6a6a6;
+    height: 25px;
+    width: 100%;
+}
+.servicios {
+    height: 100%;
+    width: 67.8%;
+    margin-left: 16.2%;
+    color: white;
+    font-family: verdana;
+    font-size: 25px;
+    line-height: 2;
+    padding-top: 1;
+}
+.texto {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    margin-top: -19px;  
+}
+.area2 {
+    height: 650px;
+    width: 100%;
+    margin-top: 60px;
+}
+.tabla {
+    height: 100%;
+    width: 67.8%;
+    margin-left: 16.2%;
+}
+.contenedor1 {
+     height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.item {
+     height:300px;;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #144108;
+    font-family: verdana;
+}
+.item .residencia {
+    height: 200px;
+    widows: 200px;
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(imagenes/icono%20casa.png);
+}
+
+.residencia {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle1 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-294.5%, -60%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.item:hover .middle1 {
+  opacity: 1;
+  cursor: pointer;
+}
+.text1 {
+  background-color: #548235;
+  color: white;
+  font-size: 12px;
+  padding: 63px 43.5px;
+}
+
+
+.item .controlgarrapata {
+    height: 200px;
+    widows: 200px;
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(imagenes/icono%20no%20pulgas.png);
+}
+.controlgarrapata {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle2 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-171.2%, -60.5%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.item:hover .middle2 {
+  opacity: 1;
+  cursor: pointer;
+}
+.text2 {
+  background-color: #548235;
+  color: white;
+  font-size: 12px;
+  padding: 77.3px 43.5px;
+}
+
+.item .chinches {
+    height: 200px;
+    widows: 200px;
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(imagenes/icono%20no%20chinches.png);
+}
+.chinches {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle3 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-49.4%, -60.5%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.item:hover .middle3 {
+  opacity: 1;
+  cursor: pointer;
+}
+.text3 {
+  background-color: #548235;
+  color: white;
+  font-size: 12px;
+  padding: 77.3px 51.8px;
+}
+.item .nebulizacion {
+    height: 200px;
+    widows: 200px;
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(imagenes/icono%20nebulizacion.png);
+}
+.nebulizacion {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle4 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(73.5%, -60.5%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.item:hover .middle4 {
+  opacity: 1;
+  cursor: pointer;
+}
+.text4 {
+  background-color: #548235;
+  color: white;
+  font-size: 12px;
+  padding: 70px 42.5px;
+}
+.item .frio {
+    height: 200px;
+    widows: 200px;
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(imagenes/icono%20frio.png);
+}
+.frio {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle5 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(206%, -60.5%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.item:hover .middle5 {
+  opacity: 1;
+  cursor: pointer;
+}
+.text5 {
+  background-color: #548235;
+  color: white;
+  font-size: 12px;
+  padding: 80px 45px;
+}
+
+
+.contenedor2 {
+     height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item .caliente {
+    height: 200px;
+    widows: 200px;
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(imagenes/icono%20caliente.png);
+}
+
+.caliente {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle6 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-309%, 110%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.item:hover .middle6 {
+  opacity: 1;
+  cursor: pointer;
+}
+.text6 {
+  background-color: #548235;
+  color: white;
+  font-size: 12px;
+  padding: 80px 43.5px;
+}
+
+
+.item .integral {
+    height: 200px;
+    widows: 200px;
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(imagenes/icono%20restaurante.png);
+}
+.integral {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle7 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-172%, 104%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.item:hover .middle7 {
+  opacity: 1;
+  cursor: pointer;
+}
+.text7 {
+  background-color: #548235;
+  color: white;
+  font-size: 12px;
+  padding: 62.5px 39px;
+}
+
+.item .industria {
+    height: 200px;
+    widows: 200px;
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(imagenes/icono%20industria.png);
+}
+.industria {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle8 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-49.4%, 104%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.item:hover .middle8 {
+  opacity: 1;
+  cursor: pointer;
+}
+.text8 {
+  background-color: #548235;
+  color: white;
+  font-size: 12px;
+  padding: 62.5px 39px;
+}
+.item .inspeccion {
+    height: 200px;
+    widows: 200px;
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(imagenes/icono%20lupa.png);
+}
+.inspeccion {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle9 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(90.5%,130%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.item:hover .middle9 {
+  opacity: 1;
+  cursor: pointer;
+}
+.text9 {
+  background-color: #548235;
+  color: white;
+  font-size: 12px;
+  padding: 70px 42.5px;
+}
+.item .plagas {
+    height: 200px;
+    widows: 200px;
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    background-image: url(imagenes/icono%20plaga.png);
+}
+.plagas {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle10 {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(204.5%, 117%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.item:hover .middle10 {
+  opacity: 1;
+  cursor: pointer;
+}
+.text10 {
+  background-color: #548235;
+  color: white;
+  font-size: 12px;
+  padding: 62.5px 32px;
+}
+.pie {
+    background-color: #898989;
+    height: 170px;
+    margin-top: 0px;
+    color: white;
+    font-family: verdana;
+}
+.loguito {
+    height: 40px;
+    margin-top: 15px;
+    margin-left: 280px;
+}
+.pie .p {
+    margin-left: 250px;
+}
+.textopie {
+    margin-left: 280px;
+}
